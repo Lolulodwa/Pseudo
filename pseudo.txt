@@ -1,0 +1,49 @@
+request a positive number from the user
+repeat
+else enter zero to stop
+if input number is largest number
+print largest number
+
+request user to enter their name
+read user input and store it in a variable called first_name
+print first_name + "Hello, World"
+
+set the total to zero
+set the counter to zero
+request an integer from the user
+read input as number
+if number is not zero
+      add number to total
+	  increase counter by 1
+If counter is greater than zero
+	calculate average by dividing total by counter
+Print average
+
+Set an empty list called grocery_list
+set an empty list called bought_items
+request user to enter grocery items one by one
+	enter done to finish
+If item is not done
+	add item to grocery_list until item is done
+request user to enter items taht have been bought already
+	enter done to finish
+if item is not done
+	add item to bought_items until item is done
+set an empty list called remaining_items
+	if item is not in bought_items
+		add item to remaining_items
+Sort remaining_items in alphabetical order
+Display "items still to buy"
+For each item in remaining_items
+Print item 
+
+Request user to enter value for X
+	Store input as X
+request user to enter value for Y
+	store input as Y
+set Sum(S) as S=X+Y
+set Average(A) as A=S/2
+set Product(P) as P=X*Y
+Print Sum(S), S
+Print Average(A), A
+Print Product(P), P
